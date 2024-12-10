@@ -1,0 +1,7 @@
+{
+  "name": "UIPasteBoard",
+  "platforms": ["ios"],
+  "ios": {
+    "modules": ["UIPasteBoardModule"]
+  }
+}

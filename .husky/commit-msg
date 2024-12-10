@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+
+echo "Running Husky commit-msg 🐶 woof!"
+echo ""
+
+yarn commitlint --edit $1

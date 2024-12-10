@@ -1,0 +1,127 @@
+{
+  "stores": [
+    {
+      "name": "Loja Portobello Shop Volta Redonda",
+      "address": "Avenida Antônio de Almeida, 398",
+      "city": "Volta Redonda",
+      "cnpj": "16382403000182",
+      "id": "2108",
+      "sales_channel_name": "Lojas Portobello Shop",
+      "lat": "-22.5003223",
+      "lng": "-44.1153564"
+    }
+  ],
+  "category": {
+    "category": {
+      "balance": "0.0",
+      "convergence_tax_percentual": "200",
+      "current_category": "BASIC",
+      "next_category": "Classic",
+      "to_expire_date": null,
+      "to_expire_value": "0.0",
+      "to_next_category": "50.000,00",
+      "to_next_category_frequency": "0"
+    },
+    "statistic": {
+      "invoice": { "current": 0, "toNextCategory": 50000 },
+      "orders": { "current": 0, "toNextCategory": 2 }
+    }
+  },
+  "events": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Campaign",
+          "url": "/services/data/v48.0/sobjects/Campaign/701SG000008WAR7YAO"
+        },
+        "Id": "701",
+        "IsDeleted": false,
+        "Name": "POTOBELLO SHOP MARABÁ - INVEST DAY / SICREDI",
+        "Type": "Event",
+        "Status": "In Progress",
+        "StartDate": "2024-04-12",
+        "EndDate": "2024-04-12",
+        "Description": null,
+        "CreatedDate": "2024-04-11T12:10:04.000+0000",
+        "CreatedById": "005SG0000001d8zYAA",
+        "LastModifiedDate": "2024-04-11T12:46:56.000+0000"
+      }
+    ]
+  },
+  "notifications": [
+    {
+      "date": "2024-04-17",
+      "document": "03039738038",
+      "expirationDate": null,
+      "id": "1",
+      "message": "Parece que você ainda não completou seu cadastro na Comunidade +Arquitetura. Para que seus pontos sejam creditados, é necessário que você faça isso. Que tal terminar seu cadastro agora?",
+      "pointToExpire": null,
+      "processType": null,
+      "redirectTo": "signup",
+      "status": "NAO_LIDA",
+      "title": "Que tal garantir a pontuação do seu check-in na Revestir 2024?"
+    }
+  ],
+  "activate-account": {
+    "key": ""
+  },
+  "transactions": [],
+  "statements": {
+    "document": "234",
+    "to_expire_value": "2024-04-10",
+    "to_expire_date": "2024-04-10",
+    "balance": "0",
+    "statements": [
+      {
+        "points": []
+      }
+    ],
+    "toExpirePoints": []
+  },
+  "login": {
+    "profile": {
+      "id": "45d382556ee049f6ece74c2c5a91144537b2c746",
+      "name": "Fulano de tal",
+      "given_name": "Fulano",
+      "family_name": "de tal",
+      "preferred_username": null,
+      "email": "fulano@gmail.com",
+      "email_verified": true,
+      "picture": null,
+      "birthdate": "2003-11-18",
+      "cpf": "02295115035",
+      "mobile": "+5554999812176",
+      "address": "Rua tal",
+      "addressNumber": "56",
+      "addressComplement": "teste",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "neighborhood": "Bairro tal",
+      "access_token": "a2e293e722e73661beb88f47177d72019bafbb882c9d8072f17dcd859d02819f",
+      "key": "a9bc"
+    }
+  },
+  "signup": {
+    "id": "3"
+  },
+  "consent-options": [
+    {
+      "id": "1",
+      "label": "Declaro que tenho mais de 18 anos, que li e concordo com as Políticas de Privacidade e Termos de Uso",
+      "required": true,
+      "url": "https://www.portobello.com.br/conta/privacidade"
+    },
+    {
+      "id": "3",
+      "label": "Aceito receber novidades do Grupo Portobello por e-mail ou SMS",
+      "required": false,
+      "url": null
+    },
+    {
+      "id": "5",
+      "label": "Li e aceito o Regulamento do programa de relacionamento",
+      "required": true,
+      "url": "https://www.portobello.com.br/maisarquitetura/conta/regulamento"
+    }
+  ]
+}

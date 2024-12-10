@@ -1,0 +1,17 @@
+{
+  "name": "uipasteboard",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "expo-module": "expo-module"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^3.0.0",
+    "expo-modules-core": "^1.11.9"
+  },
+  "peerDependencies": {
+    "expo": "*"
+  }
+}

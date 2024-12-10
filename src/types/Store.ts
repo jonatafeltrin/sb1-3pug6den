@@ -1,0 +1,31 @@
+export interface IStore {
+  id: string;
+  sales_channel: string;
+  name: string;
+  manager_name: string;
+  address: string;
+  phone: string;
+  manager_phone?: string;
+  fax?: string;
+  site: string;
+  email: string;
+  state: string;
+  state_acronym: string;
+  city: string;
+  zip_code: string;
+  country: string;
+  region: string;
+  actuation_area: string;
+  idLojaPBShop: string;
+  cnpj: string;
+  socialName: string;
+  lat: string;
+  lng: string;
+  dateInserted: string;
+  dateUpdated: string;
+  officina: 'y' | 'n';
+  own: 'y' | 'n';
+  link: string;
+  linkShop: string;
+  sales_channel_name: string;
+}

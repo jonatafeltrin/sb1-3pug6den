@@ -1,0 +1,38 @@
+image: node:alpine
+
+definitions:
+  caches:
+    nodecustom: ./node_modules
+    yarn: /usr/local/share/.cache/yarn
+
+options:
+  size: 2x
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Send app updates (Main | production)
+          caches:
+            - nodecustom
+            - yarn
+          script:
+            - rm -rf .git/hooks
+            - apk add --no-cache bash
+            - apk add git
+            - COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+            - yarn install
+            - node update-all-versions.js production "$COMMIT_MESSAGE"
+    develop:
+      - step:
+          name: Send app updates (Develop | preview)
+          caches:
+            - nodecustom
+            - yarn
+          script:
+            - rm -rf .git/hooks
+            - apk add --no-cache bash
+            - apk add git
+            - COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+            - yarn install
+            - node update-all-versions.js preview "$COMMIT_MESSAGE"
